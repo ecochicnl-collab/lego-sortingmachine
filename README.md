@@ -21,3 +21,14 @@ Language: C#
 Hardware Interfacing: Python & ESP32
 
 Data & Media: Async image download manager, local JSON / database storage
+
+
+installation
+
+clone github repository
+
+Open Unity Hub.
+
+Click Add -> Add project from disk and select the cloned repository folder.
+
+Launch the project using the appropriate Unity Editor version.
