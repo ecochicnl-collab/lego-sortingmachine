@@ -1,34 +1,15 @@
-# LEGO Sorter App - Unity & Computer Vision Interface
 
-Welcome to the repository for the LEGO Sorter App, a Unity-based interface designed to power an automated physical LEGO sorting machine.
+  - Follow mode: press F or the "volg" button and the active camera automatically follows the newest falling brick until it lands.
+- Manual brick scanner: press Space to take left/right snapshots and run the Python detection script.
 
-This app acts as the primary control center and dashboard for the sorter, bridging local computer vision systems, inventory management, and ESP32 microcontroller communication into a seamless user experience.
+## AI-assisted development
 
-Features
-Real-Time Inventory & Search System: Complete database navigation and filtering for cached LEGO parts, powered by automated visual previews and image fetching.
+This project was partly built with AI assistance, mainly in the final stages:
 
-Optimized Asynchronous Data Pipeline: Built-in batch downloading and caching mechanics to handle large brick catalogs without UI freezing or performance drops.
+- The UI was optimized with AI help near the end of development (consistent scaling across scenes, filling panels properly, styling that matches the existing look).
+- Some of the more complex parts of the search system were AI-assisted, such as the smart search scoring (`ZoekHelper`) and the search history chips.
+- AI was mostly used to merge and optimize systems that already existed, for example combining the inventory into the Run scene, reusing the same search logic across the "pak blokjes" page and the inventory, linking the existing speed sliders, and unifying camera controls in the simulation.
 
-ESP32 & Hardware Integration: Communicates directly with machine microcontrollers and Python edge-processing scripts to orchestrate physical sorting routines.
+## Networking
 
-"Pak een Blokje" (Pick a Brick): Target specific parts in your inventory and trigger the hardware to fetch or route the exact bin location.
-
-Built With
-Engine: Unity
-
-Language: C#
-
-Hardware Interfacing: Python & ESP32
-
-Data & Media: Async image download manager, local JSON / database storage
-
-
-installation
-
-clone github repository
-
-Open Unity Hub.
-
-Click Add -> Add project from disk and select the cloned repository folder.
-
-Launch the project using the appropriate Unity Editor version.
+The app communicates over TCP on `127.0.0.1:5005`:
