@@ -16,6 +16,12 @@ Built with Unity 6000.0.71f1 (Unity 6) and the new Input System. The UI scales w
 
 Build order: SampleScene, home screen, simulation, run.
 
+## code
+hi guys to find the code go to the master branch not on the main branch but you can just try the app without downloading everything with this link
+https://legosorterv2.netlify.app/
+
+i hope everything works and if not let me know
+
 ## Features
 
 ### Machine dashboard (Run scene)
