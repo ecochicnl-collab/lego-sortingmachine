@@ -1,0 +1,61 @@
+# Unity generated folders and files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# IDE and generated project files
+.vs/
+.vscode/
+.idea/
+.devin/
+.freebuff/
+.plastic/
+.wakatime-project
+.gradle/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity and platform build artifacts
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.private
+*.private.meta
+~UnityDirMonSyncFile~*
+
+# Unity package/cache artifacts
+**/Assets/AssetStoreTools/
+/Assets/Plugins/PlasticSCM*
+**/Assets/AddressableAssetsData/*/*.bin*
+**/Assets/StreamingAssets/aa.meta
+
+# Local files
+__pycache__/
+*.pyc
+.DS_Store*
+Thumbs.db
+Desktop.ini
+temp_crop.png
+Assets/CapturedImages/
+
+# Too large for normal GitHub uploads (131 MB)
+Assets/Editor/inventory_parts.csv
